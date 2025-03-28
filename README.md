@@ -19,7 +19,7 @@ cd <repository-folder>
 2. **Set up your environment variables:**
 Create a `.env` file at the root of your project containing your Twitter API key:
 ```env
-TWITTER_API_KEY=your_twitter_api_key_here
+TWITTERAPI_IO_KEY=your_twitter_api_key_here
 ```
 
 3. **Create and activate a virtual environment:**
