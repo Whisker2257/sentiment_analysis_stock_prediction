@@ -1,0 +1,8 @@
+transformers==4.27.4
+datasets==2.10.1
+scikit-learn==1.2.2
+pandas==1.5.3
+numpy==1.23.5
+snscrape==0.4.3.20220106
+yfinance==0.2.14
+torch
