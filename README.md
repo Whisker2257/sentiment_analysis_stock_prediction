@@ -53,7 +53,7 @@ python scripts/sentiment_finetuning.py
 
 Gather tweets for the stock of interest over at least a 5-month period:
 ```bash
-python scripts/tweet_scraper.py --ticker PLTR --months 5
+python scripts/tweet_scraper.py 'PLTR OR $PLTR' 2024-10-01 2025-03-01 150000
 ```
 
 (Note: Ensure your `.env` file is correctly set up with your Twitter API key.)
@@ -71,7 +71,7 @@ If the prediction accuracy significantly outperforms random chance (coin flip), 
 
 1. Scrape tweets for the desired stock ticker:
 ```bash
-python scripts/tweet_scraper.py --ticker YOUR_TICKER --months 5
+python scripts/tweet_scraper.py 'your stock ticker here' yyyy-mm-dd yyyy-mm-dd number_of_tweets_here
 ```
 
 2. Run your sentiment analysis and price prediction models on the gathered tweets to predict next-day stock behavior.
